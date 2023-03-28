@@ -14,8 +14,7 @@ router.get('/updateStudents', async (req,res)=>{
     //기존의 유저 데이터 초기화
     pg.client.query(
         `
-        INSERT INTO students(name, student_id, student_dept, phone_number, boj_id, tier)
-        VALUES($1, $2, $3, $4, $5, $6)
+        TRUNCATE students RESTART IDENTITY;
         `
     );
 
