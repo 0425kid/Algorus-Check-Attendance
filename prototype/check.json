@@ -1,0 +1,764 @@
+[
+	{
+		"name": "김용환",
+		"s_id": "12152161",
+		"b_id": "yh7946",
+		"Attendance": false
+	},
+	{
+		"name": "이정은",
+		"s_id": "12193519",
+		"b_id": "lje0211",
+		"Attendance": false
+	},
+	{
+		"name": "김동민",
+		"s_id": "12201559",
+		"b_id": "hwashinkim4",
+		"Attendance": false
+	},
+	{
+		"name": "방찬혁",
+		"s_id": "12201596",
+		"b_id": "luckybaang",
+		"Attendance": false
+	},
+	{
+		"name": "박승태",
+		"s_id": "12201732",
+		"b_id": "sine0422",
+		"Attendance": false
+	},
+	{
+		"name": "박찬섭",
+		"s_id": "12201739",
+		"b_id": "pcs1728",
+		"Attendance": true
+	},
+	{
+		"name": "서범창",
+		"s_id": "12201742",
+		"b_id": "window9400",
+		"Attendance": true
+	},
+	{
+		"name": "김성민",
+		"s_id": "12202616",
+		"b_id": "ksm0305",
+		"Attendance": true
+	},
+	{
+		"name": "이상현",
+		"s_id": "12202900",
+		"b_id": "sh000819",
+		"Attendance": true
+	},
+	{
+		"name": "김가현",
+		"s_id": "12211733",
+		"b_id": "rlarkgus1117",
+		"Attendance": false
+	},
+	{
+		"name": "장시은",
+		"s_id": "12212175",
+		"b_id": "tldms1457",
+		"Attendance": false
+	},
+	{
+		"name": "박유진",
+		"s_id": "12213767",
+		"b_id": "dkslzk2002",
+		"Attendance": false
+	},
+	{
+		"name": "황수연",
+		"s_id": "12213776",
+		"b_id": "srbr272",
+		"Attendance": false
+	},
+	{
+		"name": "권유진",
+		"s_id": "12214160",
+		"b_id": "0618yujin",
+		"Attendance": true
+	},
+	{
+		"name": "김민지",
+		"s_id": "12215229",
+		"b_id": "mmji55",
+		"Attendance": false
+	},
+	{
+		"name": "나영민",
+		"s_id": "12215436",
+		"b_id": "wendyra",
+		"Attendance": false
+	},
+	{
+		"name": "이정환",
+		"s_id": "12215528",
+		"b_id": "hwan0227",
+		"Attendance": false
+	},
+	{
+		"name": "김민경",
+		"s_id": "12215535",
+		"b_id": "easter56",
+		"Attendance": false
+	},
+	{
+		"name": "이원정",
+		"s_id": "12220637",
+		"b_id": "1jung1123",
+		"Attendance": true
+	},
+	{
+		"name": "이종원",
+		"s_id": "12221316",
+		"b_id": "jw401305",
+		"Attendance": false
+	},
+	{
+		"name": "박세웅",
+		"s_id": "12221464",
+		"b_id": "tpdnb4me",
+		"Attendance": false
+	},
+	{
+		"name": "오예진",
+		"s_id": "12222069",
+		"b_id": "wlsl0292",
+		"Attendance": true
+	},
+	{
+		"name": "김연우",
+		"s_id": "12222289",
+		"b_id": "kyw5796",
+		"Attendance": false
+	},
+	{
+		"name": "이경민",
+		"s_id": "12222367",
+		"b_id": "iceamy03",
+		"Attendance": false
+	},
+	{
+		"name": "이시아",
+		"s_id": "12222484",
+		"b_id": "1111sia",
+		"Attendance": true
+	},
+	{
+		"name": "최정우",
+		"s_id": "12224033",
+		"b_id": "choijungwoo13",
+		"Attendance": true
+	},
+	{
+		"name": "나승민",
+		"s_id": "12224131",
+		"b_id": "whds0524",
+		"Attendance": true
+	},
+	{
+		"name": "기성근",
+		"s_id": "12224267",
+		"b_id": "rlrmsrl2720",
+		"Attendance": true
+	},
+	{
+		"name": "송종헌",
+		"s_id": "12224419",
+		"b_id": "sam547582",
+		"Attendance": false
+	},
+	{
+		"name": "신현민",
+		"s_id": "12224420",
+		"b_id": "chrisshin1236",
+		"Attendance": true
+	},
+	{
+		"name": "여상현",
+		"s_id": "12230456",
+		"b_id": "twinteddy001",
+		"Attendance": false
+	},
+	{
+		"name": "이창우",
+		"s_id": "12230493",
+		"b_id": "changccd1",
+		"Attendance": false
+	},
+	{
+		"name": "이다해",
+		"s_id": "12230661",
+		"b_id": "should0316",
+		"Attendance": false
+	},
+	{
+		"name": "김민준",
+		"s_id": "12230934",
+		"b_id": "kmj020416",
+		"Attendance": false
+	},
+	{
+		"name": "김지현",
+		"s_id": "12231237",
+		"b_id": "kjh04124",
+		"Attendance": false
+	},
+	{
+		"name": "이호윤",
+		"s_id": "12231457",
+		"b_id": "hoyun2003",
+		"Attendance": false
+	},
+	{
+		"name": "설재훈",
+		"s_id": "12231530",
+		"b_id": "seoljea",
+		"Attendance": false
+	},
+	{
+		"name": "조강현",
+		"s_id": "12231581",
+		"b_id": "chogh102",
+		"Attendance": true
+	},
+	{
+		"name": "김연우",
+		"s_id": "12231613",
+		"b_id": "yeonu4779",
+		"Attendance": false
+	},
+	{
+		"name": "김준형",
+		"s_id": "12231619",
+		"b_id": "jeff040224",
+		"Attendance": false
+	},
+	{
+		"name": "박동진",
+		"s_id": "12231628",
+		"b_id": "pdj614",
+		"Attendance": true
+	},
+	{
+		"name": "이원영",
+		"s_id": "12231674",
+		"b_id": "lwylwy2345",
+		"Attendance": true
+	},
+	{
+		"name": "정지윤",
+		"s_id": "12231690",
+		"b_id": "sstopyun",
+		"Attendance": false
+	},
+	{
+		"name": "방지윤",
+		"s_id": "12231733",
+		"b_id": "wannago_home",
+		"Attendance": true
+	},
+	{
+		"name": "박서진",
+		"s_id": "12231813",
+		"b_id": "parkseoj1n120",
+		"Attendance": false
+	},
+	{
+		"name": "이지원",
+		"s_id": "12231826",
+		"b_id": "jiwon045",
+		"Attendance": true
+	},
+	{
+		"name": "윤준서",
+		"s_id": "12231915",
+		"b_id": "junsyeo9998",
+		"Attendance": true
+	},
+	{
+		"name": "손가영",
+		"s_id": "12231994",
+		"b_id": "sgy7315",
+		"Attendance": true
+	},
+	{
+		"name": "김동민",
+		"s_id": "12232036",
+		"b_id": "jh040212",
+		"Attendance": true
+	},
+	{
+		"name": "김유진",
+		"s_id": "12232057",
+		"b_id": "dynajin",
+		"Attendance": false
+	},
+	{
+		"name": "김이수",
+		"s_id": "12232059",
+		"b_id": "ihyun1111",
+		"Attendance": false
+	},
+	{
+		"name": "송채윤",
+		"s_id": "12232112",
+		"b_id": "sochyo99",
+		"Attendance": true
+	},
+	{
+		"name": "송해인",
+		"s_id": "12232113",
+		"b_id": "haein01",
+		"Attendance": true
+	},
+	{
+		"name": "이다은",
+		"s_id": "12232138",
+		"b_id": "sallylee0609",
+		"Attendance": true
+	},
+	{
+		"name": "최진선",
+		"s_id": "12232406",
+		"b_id": "jeycjh10",
+		"Attendance": true
+	},
+	{
+		"name": "이현중",
+		"s_id": "12232840",
+		"b_id": "hyuning",
+		"Attendance": false
+	},
+	{
+		"name": "김지민",
+		"s_id": "12232870",
+		"b_id": "jiciskoi",
+		"Attendance": true
+	},
+	{
+		"name": "김영채",
+		"s_id": "12232928",
+		"b_id": "pangchae",
+		"Attendance": false
+	},
+	{
+		"name": "이준서",
+		"s_id": "12233207",
+		"b_id": "josh0519",
+		"Attendance": true
+	},
+	{
+		"name": "송호근",
+		"s_id": "12233528",
+		"b_id": "shgckh309",
+		"Attendance": false
+	},
+	{
+		"name": "김강훈",
+		"s_id": "12233873",
+		"b_id": "gimagang9292",
+		"Attendance": false
+	},
+	{
+		"name": "김예인",
+		"s_id": "12233880",
+		"b_id": "yeaah_in810",
+		"Attendance": true
+	},
+	{
+		"name": "김지원",
+		"s_id": "12233884",
+		"b_id": "0928jiwon",
+		"Attendance": true
+	},
+	{
+		"name": "양준석",
+		"s_id": "12233900",
+		"b_id": "junesuk1617",
+		"Attendance": false
+	},
+	{
+		"name": "이승현",
+		"s_id": "12233906",
+		"b_id": "moha_jun",
+		"Attendance": false
+	},
+	{
+		"name": "이유찬",
+		"s_id": "12233907",
+		"b_id": "leeyuch6",
+		"Attendance": true
+	},
+	{
+		"name": "임근호",
+		"s_id": "12233912",
+		"b_id": "imgh0204",
+		"Attendance": true
+	},
+	{
+		"name": "장주연",
+		"s_id": "12233913",
+		"b_id": "jjo1601",
+		"Attendance": true
+	},
+	{
+		"name": "조성열",
+		"s_id": "12233915",
+		"b_id": "csy3301",
+		"Attendance": false
+	},
+	{
+		"name": "홍장원",
+		"s_id": "12233919",
+		"b_id": "carrott",
+		"Attendance": true
+	},
+	{
+		"name": "전찬영",
+		"s_id": "12233959",
+		"b_id": "jcy0423",
+		"Attendance": false
+	},
+	{
+		"name": "홍준형",
+		"s_id": "12234008",
+		"b_id": "justin0721",
+		"Attendance": false
+	},
+	{
+		"name": "장지원",
+		"s_id": "12234045",
+		"b_id": "aspyn_04",
+		"Attendance": true
+	},
+	{
+		"name": "황현",
+		"s_id": "12234050",
+		"b_id": "hh5194673",
+		"Attendance": false
+	},
+	{
+		"name": "곽민혁",
+		"s_id": "12234056",
+		"b_id": "min1028004",
+		"Attendance": true
+	},
+	{
+		"name": "곽신제",
+		"s_id": "12234057",
+		"b_id": "cjma",
+		"Attendance": true
+	},
+	{
+		"name": "구본상",
+		"s_id": "12234059",
+		"b_id": "cock0429",
+		"Attendance": true
+	},
+	{
+		"name": "구정우",
+		"s_id": "12234060",
+		"b_id": "rnwjddn",
+		"Attendance": true
+	},
+	{
+		"name": "김기현",
+		"s_id": "12234066",
+		"b_id": "gwsj7036",
+		"Attendance": true
+	},
+	{
+		"name": "김도담",
+		"s_id": "12234069",
+		"b_id": "gemddkim",
+		"Attendance": false
+	},
+	{
+		"name": "김민섭",
+		"s_id": "12234073",
+		"b_id": "tommy1005a",
+		"Attendance": false
+	},
+	{
+		"name": "김민재",
+		"s_id": "12234074",
+		"b_id": "manjae04",
+		"Attendance": true
+	},
+	{
+		"name": "김서연",
+		"s_id": "12234081",
+		"b_id": "sy041002",
+		"Attendance": true
+	},
+	{
+		"name": "김원호",
+		"s_id": "12234087",
+		"b_id": "tlrpqksmf",
+		"Attendance": true
+	},
+	{
+		"name": "김재한",
+		"s_id": "12234090",
+		"b_id": "jesusjaehan",
+		"Attendance": true
+	},
+	{
+		"name": "김정훈",
+		"s_id": "12234091",
+		"b_id": "kjh4567",
+		"Attendance": true
+	},
+	{
+		"name": "김준혁",
+		"s_id": "12234092",
+		"b_id": "smldug135",
+		"Attendance": true
+	},
+	{
+		"name": "김태현",
+		"s_id": "12234098",
+		"b_id": "ackgi1117",
+		"Attendance": true
+	},
+	{
+		"name": "김형민",
+		"s_id": "12234100",
+		"b_id": "dudals2157",
+		"Attendance": true
+	},
+	{
+		"name": "노유신",
+		"s_id": "12234104",
+		"b_id": "yusin",
+		"Attendance": false
+	},
+	{
+		"name": "마승우",
+		"s_id": "12234107",
+		"b_id": "nick1411",
+		"Attendance": true
+	},
+	{
+		"name": "모가람",
+		"s_id": "12234108",
+		"b_id": "mm33",
+		"Attendance": true
+	},
+	{
+		"name": "박건",
+		"s_id": "12234110",
+		"b_id": "pg020205 ",
+		"Attendance": true
+	},
+	{
+		"name": "박경찬",
+		"s_id": "12234111",
+		"b_id": "chan0218",
+		"Attendance": true
+	},
+	{
+		"name": "박성윤",
+		"s_id": "12234115",
+		"b_id": "qkrtjddbs0103",
+		"Attendance": true
+	},
+	{
+		"name": "박성찬",
+		"s_id": "12234116",
+		"b_id": "tjdcks8840",
+		"Attendance": true
+	},
+	{
+		"name": "박현민",
+		"s_id": "12234124",
+		"b_id": "hyunmin365",
+		"Attendance": false
+	},
+	{
+		"name": "손동현",
+		"s_id": "12234134",
+		"b_id": "nitepp04",
+		"Attendance": true
+	},
+	{
+		"name": "안유민",
+		"s_id": "12234139",
+		"b_id": "yumin00",
+		"Attendance": false
+	},
+	{
+		"name": "오현승",
+		"s_id": "12234143",
+		"b_id": "raymond1203",
+		"Attendance": true
+	},
+	{
+		"name": "옥지민",
+		"s_id": "12234144",
+		"b_id": "okjimin",
+		"Attendance": false
+	},
+	{
+		"name": "원종혁",
+		"s_id": "12234145",
+		"b_id": "jhwon0404",
+		"Attendance": false
+	},
+	{
+		"name": "유태호",
+		"s_id": "12234153",
+		"b_id": "taeho9613",
+		"Attendance": false
+	},
+	{
+		"name": "이재우",
+		"s_id": "12234162",
+		"b_id": "jaeu1341",
+		"Attendance": true
+	},
+	{
+		"name": "이준성",
+		"s_id": "12234165",
+		"b_id": "dlwnstjd2004",
+		"Attendance": false
+	},
+	{
+		"name": "이현민",
+		"s_id": "12234173",
+		"b_id": "dlgusals31",
+		"Attendance": true
+	},
+	{
+		"name": "임재욱",
+		"s_id": "12234176",
+		"b_id": "dlawodnr0000",
+		"Attendance": true
+	},
+	{
+		"name": "장재형",
+		"s_id": "12234178",
+		"b_id": "adafg1204",
+		"Attendance": true
+	},
+	{
+		"name": "전지호",
+		"s_id": "12234182",
+		"b_id": "jiho3394",
+		"Attendance": true
+	},
+	{
+		"name": "정성빈",
+		"s_id": "12234185",
+		"b_id": "jsb0488",
+		"Attendance": true
+	},
+	{
+		"name": "정우진",
+		"s_id": "12234188",
+		"b_id": "kakae913",
+		"Attendance": false
+	},
+	{
+		"name": "조성철",
+		"s_id": "12234192",
+		"b_id": "seongchul33",
+		"Attendance": false
+	},
+	{
+		"name": "조진우",
+		"s_id": "12234195",
+		"b_id": "jimy1218",
+		"Attendance": true
+	},
+	{
+		"name": "최지우",
+		"s_id": "12234207",
+		"b_id": "chlwldn4319",
+		"Attendance": true
+	},
+	{
+		"name": "오제훈",
+		"s_id": "12234254",
+		"b_id": "ojh0802",
+		"Attendance": true
+	},
+	{
+		"name": "장은수",
+		"s_id": "12234276",
+		"b_id": "jes",
+		"Attendance": false
+	},
+	{
+		"name": "지은우",
+		"s_id": "12234282",
+		"b_id": "epoke03",
+		"Attendance": false
+	},
+	{
+		"name": "김기현",
+		"s_id": "12234408",
+		"b_id": "hyun5608",
+		"Attendance": false
+	},
+	{
+		"name": "신준환",
+		"s_id": "12234414",
+		"b_id": "s2003jjun",
+		"Attendance": false
+	},
+	{
+		"name": "임채규",
+		"s_id": "12234418",
+		"b_id": "kevin4620",
+		"Attendance": false
+	},
+	{
+		"name": "이윤지",
+		"s_id": "12234437",
+		"b_id": "yj2224250",
+		"Attendance": false
+	},
+	{
+		"name": "김지후",
+		"s_id": "12234460",
+		"b_id": "jihoooo",
+		"Attendance": false
+	},
+	{
+		"name": "조혁주",
+		"s_id": "12234534",
+		"b_id": "gotika",
+		"Attendance": false
+	},
+	{
+		"name": "노도형",
+		"s_id": "12234605",
+		"b_id": "hg0309",
+		"Attendance": true
+	},
+	{
+		"name": "염정인",
+		"s_id": "12234612",
+		"b_id": "kihano",
+		"Attendance": false
+	},
+	{
+		"name": "서동윤",
+		"s_id": "12234628",
+		"b_id": "sdy6785",
+		"Attendance": true
+	},
+	{
+		"name": "정헌석",
+		"s_id": "12234717",
+		"b_id": "ltwosonl",
+		"Attendance": true
+	}
+]
