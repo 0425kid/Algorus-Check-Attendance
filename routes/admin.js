@@ -2,11 +2,14 @@ const express = require("express")
 const router = express.Router()
 const postgresql = require('../lib/postgresql')
 
+router.get('/', (req, res)=>{
+    res.send('Admin page');
+})
+
 // 로그인
 router.get('/updateStudents', async (req,res)=>{
 
     const json = require('../data/sample.json');
-    res.send(json);
 
     const pg = new postgresql()
     await pg.connect()
@@ -25,8 +28,24 @@ router.get('/updateStudents', async (req,res)=>{
             INSERT INTO students(name, student_id, student_dept, phone_number, boj_id, tier)
             VALUES($1, $2, $3, $4, $5, $6)
             `
-        ,[element.name, element.s_id, element.dept, element.pn, element['boj-id'], element.tier])
+        ,[element.name, element.s_id, element.dept, element.pn, element['boj-id'], element.tier],
+        (error)=>{
+            if(error){
+                res.send(`
+                    <script>alert("Failed"); 
+                    window.location.href="/admin";
+                    </script>
+                `)
+            }
+        })
     });
+    
+    res.send(`
+            <script>alert("Success"); 
+            window.location.href="/admin";
+            </script>
+        `);
+
 })
 
 module.exports = router
