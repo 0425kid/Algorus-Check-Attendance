@@ -32,7 +32,7 @@ router.get('/getStudents', async (req,res)=>{
 
 router.get('/updateStudents', async (req,res)=>{
 
-    const json = require('../data/sample.json');
+    const json = require('../data/members.json');
 
     const pg = new postgresql()
     await pg.connect()
@@ -48,10 +48,10 @@ router.get('/updateStudents', async (req,res)=>{
     json.forEach(element => {
         pg.client.query(
             `
-            INSERT INTO students(name, student_id, student_dept, phone_number, boj_id, tier)
-            VALUES($1, $2, $3, $4, $5, $6)
+            INSERT INTO students(name, student_id, boj_id)
+            VALUES($1, $2, $3)
             `
-        ,[element.name, element.s_id, element.dept, element.pn, element['boj-id'], element.tier],
+        ,[element.name, element.s_id, element.b_id],
         (error)=>{
             if(error){
                 res.send(`
