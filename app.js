@@ -7,16 +7,18 @@ var http = require('http').Server(app);// create a http web server using the htt
 const port = 3000
 
 var bodyParser = require('body-parser');
-app.use(bodyParser.urlencoded({extended: true }));
 app.use(express.json());
+app.use(bodyParser.urlencoded({extended: true }));
 
 const set = require(path.join(__dirname + '/vanila_module/setting.js'));
 const json = require('./data/sample.json');
 
+
 app.use('/admin', require('./routes/admin.js'))
+app.use('/user', require('./routes/user.js'))
 
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname + '/home.html'))
+    res.sendFile(path.join(__dirname + '/view/home.html'))
 })
 
 http.listen(port, () => {

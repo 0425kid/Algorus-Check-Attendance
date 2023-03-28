@@ -1,12 +1,35 @@
-const express = require("express")
-const router = express.Router()
-const postgresql = require('../lib/postgresql')
+const express = require("express");
+const router = express.Router();
+const path = require('path');
+const postgresql = require('../lib/postgresql');
 
 router.get('/', (req, res)=>{
-    res.send('Admin page');
+    res.sendFile(path.join(__dirname + '/../view/admin_home.html'))
 })
 
-// 로그인
+router.get('/getStudents', async (req,res)=>{
+
+    const pg = new postgresql()
+    await pg.connect()
+
+    pg.client.query(
+        `
+        SELECT * FROM students;
+        `
+    ,
+    (error, result)=>{
+        if(error){
+            res.send(`
+                <script>alert("Failed"); 
+                window.location.href="/admin";
+                </script>
+            `)
+        }
+        res.send(result.rows);
+    })
+
+})
+
 router.get('/updateStudents', async (req,res)=>{
 
     const json = require('../data/sample.json');
