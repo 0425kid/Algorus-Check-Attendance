@@ -11,8 +11,9 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({extended: true }));
 
 
-app.use('/admin', require('./routes/admin.js'))
+//app.use('/admin', require('./routes/admin.js'))
 app.use('/user', require('./routes/user.js'))
+app.use('/attendance_check', require('./routes/attendance_check.js'))
 
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname + '/view/home.html'))

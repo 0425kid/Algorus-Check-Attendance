@@ -47,4 +47,39 @@ router.post('/check_boj_id', async (req,res)=>{
 
 })
 
+router.post('/chek_attendance', async (req,res)=>{
+    const week_num = req.body.week_num;
+    const name = req.body.name;
+    const s_id = req.body.student_id;
+
+    const pg = new postgresql()
+    await pg.connect()
+
+    pg.client.query(
+        `SELECT * FROM students
+        WHERE name=$1 and student_i=$2;
+        `, [name, s_id],
+    )
+    
+    pg.client.query(
+        `
+        SELECT attendance_status FROM attendance
+        WHERE week_number=$1 and studnet_name=$2;
+        `
+    ,[week_num, name],
+    (error, result)=>{
+        if(error){
+            res.send(`
+                <script>alert("Failed"); 
+                </script>
+            `)
+        }
+        else {
+            res.send(result.rows);
+        }
+        
+    })
+
+})
+
 module.exports = router
