@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const path = require('path');
+const { isErrored } = require("stream");
 const postgresql = require('../lib/postgresql');
 
 router.get('/', (req, res)=>{
@@ -25,7 +26,10 @@ router.get('/getStudents', async (req,res)=>{
                 </script>
             `)
         }
-        res.send(result.rows);
+        else {
+            res.send(result.rows);
+        }
+        
     })
 
 })
@@ -45,30 +49,32 @@ router.get('/updateStudents', async (req,res)=>{
     );
 
     //json에 있는 데이터대로 새로 추가
-    json.forEach(element => {
-        pg.client.query(
-            `
-            INSERT INTO students(name, student_id, boj_id)
-            VALUES($1, $2, $3)
-            `
-        ,[element.name, element.s_id, element.b_id],
-        (error)=>{
-            if(error){
-                res.send(`
-                    <script>alert("Failed"); 
-                    window.location.href="/admin";
-                    </script>
-                `)
-            }
-        })
-    });
-    
+    try {
+        await Promise.all(json.map((element) =>
+            pg.client.query(
+                `
+                INSERT INTO students(name, student_id, boj_id)
+                VALUES($1, $2, $3)
+                `,
+                [element.name, element.s_id, element.b_id]
+            )
+        ));
+        res.redirect('/admin');
+    } catch (error) {
+        //console.error(error);
+        let errormsg = error.severity + ' : ' + error.code + ' : ' + error.detail;
+        res.status(400).send(errormsg);
+    } finally {
+        await pg.disconnect();
+    }
     res.send(`
             <script>alert("Success"); 
             window.location.href="/admin";
             </script>
         `);
+    });
+    
+    
 
-})
 
 module.exports = router
