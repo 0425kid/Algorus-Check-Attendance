@@ -59,20 +59,20 @@ router.get('/updateStudents', async (req,res)=>{
                 [element.name, element.s_id, element.b_id]
             )
         ));
-        res.redirect('/admin');
+        // res.redirect('/admin');
+        res.send(`
+            <script>alert("Success"); 
+            window.location.href="/admin";
+            </script>
+        `);
     } catch (error) {
         //console.error(error);
         let errormsg = error.severity + ' : ' + error.code + ' : ' + error.detail;
         res.status(400).send(errormsg);
     } finally {
-        await pg.disconnect();
+        await pg.disconnect();   
     }
-    res.send(`
-            <script>alert("Success"); 
-            window.location.href="/admin";
-            </script>
-        `);
-    });
+});
     
     
 
