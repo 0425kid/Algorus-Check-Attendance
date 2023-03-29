@@ -13,10 +13,10 @@ const addMembers = async (data) => {
     data.forEach(element => {
         pool.query(
             `
-            INSERT INTO students(name, student_id, student_dept, phone_number, boj_id, tier)
-            VALUES($1, $2, $3, $4, $5, $6)
+            INSERT INTO students(name, student_id, boj_id)
+            VALUES($1, $2, $3)
             `
-        ,[element.name, element.s_id, element.dept, element.pn, element['boj-id'], element.tier])
+        ,[element.name, element.s_id, element.b_id])
     });
 }
 
