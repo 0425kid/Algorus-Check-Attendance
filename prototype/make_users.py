@@ -6,5 +6,5 @@ def do():
         users = json.load(f)
     f.close()
     for elem in users:
-        elem['Attendance'] = False
+        elem['atnd'] = False
     return users

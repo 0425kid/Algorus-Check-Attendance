@@ -10,10 +10,7 @@ with open('problems.json', 'r', encoding='utf-8') as f:
     problems = json.load(f)
 f.close()
 with open('date.json', 'r', encoding='utf-8') as f:
-    try:
-        ls = json.load(f)
-    except json.decoder.JSONDecodeError:
-        ls = []
+    ls = json.load(f)
 f.close()
 dead_line = datetime(*ls[-1])
 
@@ -22,7 +19,7 @@ def do():
     users = make_users.do()
     for user in users:
         cnt = 0
-        for problem in problems:
+        for problem in problems[len(ls) - 1]:
             url = f'https://www.acmicpc.net/status?from_mine=1&problem_id={problem}&user_id={user["b_id"]}'
             html = requests.get(url, headers=headers)
             soup = bS(html.text, 'html.parser')
@@ -34,7 +31,11 @@ def do():
                     cnt += 1
                     break
         if cnt == len(problems):
-            user['Attendance'] = True
+            user['atnd'] = True
     with open('check.json', 'w', encoding='utf-8') as chk:
         json.dump(users, chk, ensure_ascii=False, indent='\t')
     chk.close()
+
+
+if __name__ == '__main__':
+    do()

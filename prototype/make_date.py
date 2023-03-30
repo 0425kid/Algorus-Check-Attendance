@@ -14,6 +14,7 @@ def do():
         except json.decoder.JSONDecodeError:
             jf = []
     f.close()
+
     with open('date.json', 'w', encoding='utf-8') as f:
         temp = []
         for elem in jf:
@@ -21,8 +22,7 @@ def do():
         data = set(temp)
         ls = list(map(int, str(add_days(datetime.today(), - datetime.today().weekday()).date()).split('-')))
         ls.append(12)
-        ls = tuple(ls)
-        data.add(ls)
+        data.add(tuple(ls))
         data = sorted(list(data))
         json.dump(data, f, ensure_ascii=False)
     f.close()
