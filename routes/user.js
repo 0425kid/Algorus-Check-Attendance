@@ -73,10 +73,6 @@ router.post('/chek_attendance', async (req,res)=>{
     }
 
     pg.client.query(
-        
-    )
-
-    pg.client.query(
         `
         SELECT attendance_status FROM attendance
         WHERE week_number=$1 and student_name=$2
