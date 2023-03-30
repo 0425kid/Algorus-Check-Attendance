@@ -10,9 +10,12 @@ with open('problems.json', 'r', encoding='utf-8') as f:
     problems = json.load(f)
 f.close()
 with open('date.json', 'r', encoding='utf-8') as f:
-    ls = json.load(f)
+    try:
+        ls = json.load(f)
+    except json.decoder.JSONDecodeError:
+        ls = []
 f.close()
-dead_line = datetime(*ls)
+dead_line = datetime(*ls[-1])
 
 
 def do():
