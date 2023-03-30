@@ -21,5 +21,4 @@ app.get("/", (req, res) => {
 
 http.listen(port, () => {
     console.log(`server listening on *:${port}`)
-    //set.addMembers(json);
 })

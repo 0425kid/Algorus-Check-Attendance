@@ -55,30 +55,33 @@ router.post('/chek_attendance', async (req,res)=>{
     const pg = new postgresql()
     await pg.connect()
 
-    pg.client.query(
-        `SELECT * FROM students
-        WHERE name=$1 and student_i=$2;
-        `, [name, s_id],
-    )
-    
+    try{
+        const result = await pg.client.query(
+            `
+            SELECT * FROM students
+            WHERE name=$1 and student_id=$2;
+            `, [name, s_id],
+        )
+        if(result.rowCount == 0){
+            return res.status(400).send('이름과 학번이 일치하지 않습니다!');
+        }
+        
+    }
+    catch(e){
+        console.log(e)
+        return res.status(500).send({})
+    }
+
     pg.client.query(
         `
         SELECT attendance_status FROM attendance
-        WHERE week_number=$1 and studnet_name=$2;
-        `
-    ,[week_num, name],
-    (error, result)=>{
-        if(error){
-            res.send(`
-                <script>alert("Failed"); 
-                </script>
-            `)
+        WHERE week_number=$1 and student_name=$2
+        ;
+        `, [week_num, name] 
+        ,(error, result) => {
+            res.send(result.rows[0]);
         }
-        else {
-            res.send(result.rows);
-        }
-        
-    })
+    )
 
 })
 
