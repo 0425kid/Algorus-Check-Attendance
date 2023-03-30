@@ -8,7 +8,7 @@ const postgresql = require('../lib/postgresql');
 router.get('/:week', async (req,res)=>{
     const week_num = req.params.week;
     console.log(`${week_num}주차 출석체크`);
-    const json = require('../prototype/check.json');
+    const json = require(`../prototype/check${week_num}.json`);
 
     const pg = new postgresql()
     await pg.connect()

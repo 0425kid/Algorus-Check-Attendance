@@ -32,7 +32,7 @@ def do():
                     break
         if cnt == len(problems):
             user['atnd'] = True
-    with open('check.json', 'w', encoding='utf-8') as chk:
+    with open(f'check{len(ls)}.json', 'w', encoding='utf-8') as chk:
         json.dump(users, chk, ensure_ascii=False, indent='\t')
     chk.close()
 
