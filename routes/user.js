@@ -41,7 +41,7 @@ router.post('/check_boj_id', async (req,res)=>{
             `)
         }
         else {
-            res.send(result.rows[0]);
+            res.send(result.rows[0]['boj_id']);
         }
     })
 
