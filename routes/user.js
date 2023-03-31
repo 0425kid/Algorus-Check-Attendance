@@ -49,7 +49,7 @@ router.post('/check_boj_id', async (req,res)=>{
 
 router.post('/chek_attendance', async (req,res)=>{
     const week_num = req.body.week_num;
-    const name = req.body.name;
+    const s_name = req.body.name;
     const s_id = req.body.student_id;
 
     const pg = new postgresql()
@@ -57,31 +57,24 @@ router.post('/chek_attendance', async (req,res)=>{
 
     try{
         const result = await pg.client.query(
-            `
-            SELECT * FROM students
-            WHERE name=$1 and student_id=$2;
-            `, [name, s_id],
-        )
-        if(result.rowCount == 0){
-            return res.status(400).send('이름과 학번이 일치하지 않습니다!');
-        }
-        
-    }
-    catch(e){
-        console.log(e)
-        return res.status(500).send({})
-    }
-
-    pg.client.query(
         `
         SELECT attendance_status FROM attendance
-        WHERE week_number=$1 and student_name=$2
+        WHERE week_number=$1 and student_id=$2 and student_name=$3
         ;
-        `, [week_num, name] 
-        ,(error, result) => {
-            res.send(result.rows[0]);
+        `, [week_num, s_id, s_name]
+        )
+        console.log(result.rowCount)
+        if(result.rowCount == 0){
+            return res.send("일치하는 회원 정보가 없습니다. 학번과 이름을 확인해주세요!")
         }
-    )
+        res.send(result.rows[0]);
+        
+    }
+    catch(error){
+        //console.log(e)
+        let errormsg = error.severity + ' : ' + error.code + ' : ' + error.detail;
+        res.status(400).send(errormsg);
+    }
 
 })
 
