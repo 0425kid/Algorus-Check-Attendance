@@ -1,25 +1,53 @@
 <!DOCTYPE html>
 <head>
-<head>
+  <head>
     <title>홈 화면</title>
-</head>
-<body>
-    <h1>홈</h1>
-    <h3>백준 아이디 체크</h3>
-    <form method="post" action="/user/check_boj_id">
-        <input name="name" placeholder="이름">
-        <input name="student_id" placeholder="학번">
-        <input type="submit">
-    </form>
-    <h3>출석 현황 체크</h3>
-    <form method="post" action="/user/chek_attendance">
-        <input name="name" placeholder="이름">
-        <input name="student_id" placeholder="학번">    
-        <select name="week_num">
-            <option value="">주차 선택</option>
-            <option value="1">1주차</option>
+  </head>
+  <link rel="stylesheet" href="./../style/home-style.css" />
+  <body>
+    <img src="./../src/agduck.png" alt="agDuck" class="agDuck agDuck1" />
+    <img src="./../src/agduck.png" alt="agDuck" class="agDuck agDuck2" />
+    <img src="./../src/agduck.png" alt="agDuck" class="agDuck agDuck3" />
+    <img src="./../src/agduck.png" alt="agDuck" class="agDuck agDuck4 rotate" />
+    <img src="./../src/agduck.png" alt="agDuck" class="agDuck agDuck5" />
+    <img src="./../src/agduck.png" alt="agDuck" class="agDuck agDuck6 rotate" />
+    <img src="./../src/agduck.png" alt="agDuck" class="agDuck agDuck7" />
+    <img src="./../src/agmung.png" alt="agMung" class="agMung agMung1 rotate" />
+    <img src="./../src/agmung.png" alt="agMung" class="agMung agMung2" />
+    <img src="./../src/agmung.png" alt="agMung" class="agMung agMung3" />
+    <img src="./../src/agmung.png" alt="agMung" class="agMung agMung4" />
+    <img src="./../src/agmung.png" alt="agMung" class="agMung agMung5" />
+    <img src="./../src/agmung.png" alt="agMung" class="agMung agMung6" />
+    <div class="home-container">
+      <h1 class="home">
+        <span class="accent-color">&lt;P</span>
+        re -
+        <span class="accent-color">A</span>
+        lgorus
+        <span class="accent-color"> /&gt; </span>
+      </h1>
+      <h3>
+        <span class="accent-color"> 백준 </span>
+        아이디 체크
+      </h3>
+      <form method="post" action="/user/check_boj_id">
+        <input name="name" placeholder="이름" class="input" />
+        <input name="student_id" placeholder="학번" class="input" />
+        <input type="submit" class="submitBtn" />
+      </form>
+      <h3>
+        <span style="color: brown">출석</span>
+        현황 체크
+      </h3>
+      <form method="post" action="/user/chek_attendance">
+        <input name="name" placeholder="이름" class="input" />
+        <input name="student_id" placeholder="학번" class="input" />
+        <select name="week_num" class="select">
+          <option value="">주차 선택</option>
+          <option value="1">1주차</option>
         </select>
-        <input type="submit">
-    </form>
-</body>
+        <input type="submit" class="submitBtn" />
+      </form>
+    </div>
+  </body>
 </head>

@@ -1,0 +1,139 @@
+:root {
+  --accent-color: rgb(0, 118, 191);
+}
+
+body {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home-container {
+  border: 1px solid black;
+  padding: 30px;
+  padding-bottom: 60px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.5);
+}
+
+.agDuck {
+  width: 100px;
+  position: absolute;
+}
+
+.agMung {
+  width: 100px;
+  position: absolute;
+}
+
+.agDuck1 {
+  left: 100px;
+  top: 0px;
+}
+
+.agDuck2 {
+  left: 0px;
+  bottom: 100px;
+}
+
+.agDuck3 {
+  left: 250px;
+}
+
+.agDuck4 {
+  top: 50px;
+  left: 500px;
+}
+
+.agDuck5 {
+  bottom: 50px;
+  left: 500px;
+}
+.agDuck6 {
+  right: 200px;
+  top: 300px;
+}
+
+.agDuck7 {
+  right: 350px;
+  top: 100px;
+}
+
+.agMung1 {
+  left: 200px;
+  top: 120px;
+}
+.agMung2 {
+  bottom: 0px;
+  left: 250px;
+}
+.agMung3 {
+  top: 0px;
+}
+
+.agMung4 {
+  bottom: 0px;
+  left: 800px;
+}
+
+.agMung5 {
+  right: 100px;
+  top: 100px;
+}
+
+.agMung6 {
+  right: 100px;
+  bottom: 100px;
+}
+
+.accent-color {
+  color: var(--accent-color);
+}
+
+.input {
+  padding: 5px 10px;
+}
+
+.select {
+  padding: 5px 10px;
+}
+
+.submitBtn {
+  border: none;
+  padding: 7px 15px;
+  border-radius: 5px;
+  background-color: var(--accent-color);
+  color: white;
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  transform: scale(1.1);
+  filter: brightness(1.1);
+}
+
+h1 span {
+  margin-right: -7px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate {
+  animation-fill-mode: forwards;
+}
+
+.rotate:hover {
+  animation: spin 1s linear infinite;
+  animation-fill-mode: forwards;
+}
