@@ -17,6 +17,7 @@ app.use('/attendance_check', require('./routes/attendance_check.js'))
 
 app.use(express.static('style'));
 app.use(express.static('public'));
+app.use(express.static('src'));
 
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname + '/view/home.html'))
