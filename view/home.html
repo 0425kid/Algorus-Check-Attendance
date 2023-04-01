@@ -4,7 +4,8 @@
         <title>홈 화면</title>
         <meta charset="UTF-8">
     </head>
-    <style>
+    <link rel="stylesheet" href="/style/home-style.css">
+    <!-- <style>
         :root {
             --accent-color: rgb(0, 118, 191);
         }
@@ -147,7 +148,7 @@
             animation: spin 1s linear infinite;
             animation-fill-mode: forwards;
         }
-    </style>
+    </style> -->
 <body>
 <img src="https://raw.githubusercontent.com/0425kid/Algorus-Check-Attendance/main/src/agduck.png" alt="agDuck"
      class="agDuck agDuck1"/>
@@ -192,19 +193,15 @@
         <input name="student_id" placeholder="학번" class="input"/>
         <input type="submit" class="submitBtn"/>
     </form>
-    <h3>
-        <span style="color: brown">출석</span>
-        현황 체크
-    </h3>
+    <h3>출석 현황 체크</h3>
     <form method="post" action="/user/chek_attendance">
-        <input name="name" placeholder="이름" class="input"/>
-        <input name="student_id" placeholder="학번" class="input"/>
-        <select name="week_num" class="select">
+        <input name="name" placeholder="이름">
+        <input name="student_id" placeholder="학번">    
+        <select name="week_num">
             <option value="">주차 선택</option>
             <option value="1">1주차</option>
         </select>
         <input type="submit" class="submitBtn"/>
     </form>
-</div>
 </body>
 </head>

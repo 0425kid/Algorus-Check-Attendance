@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>출석 확인</title>
+</head>
+<body>
+    <script>
+        fetch("http://localhost:3000/user/check_attendance")
+        .then((response) => response.json())
+        .then(data => {
+            console.log(data)
+            for(i=0;i<data.length;i++){
+                const post = document.createElement('li');
+                
+                postList.appendChild(post);
+
+                const postLink = document.createElement('a');
+                postLink.href = `/post/${data[i]}`;
+                postLink.textContent = data[i];
+                post.appendChild(postLink);
+            }
+        })
+    </script>
+</body>
+</html>

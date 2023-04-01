@@ -15,6 +15,9 @@ app.use(bodyParser.urlencoded({extended: true }));
 app.use('/user', require('./routes/user.js'))
 app.use('/attendance_check', require('./routes/attendance_check.js'))
 
+app.use(express.static('style'));
+app.use(express.static('public'));
+
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname + '/view/home.html'))
 })
