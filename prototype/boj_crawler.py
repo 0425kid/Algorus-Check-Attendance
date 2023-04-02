@@ -16,6 +16,7 @@ dead_line = datetime(*ls[-1])
 
 
 def do():
+    print(f'{len(ls)}주차 출석체크 시작')
     users = make_users.do()
     for user in users:
         cnt = 0
