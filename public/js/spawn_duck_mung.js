@@ -21,7 +21,7 @@ console.log(rotate_num);
 for(let i=1;i<7;i++){
     let mung = document.createElement('img');
     mung.src='src/agmung.png'
-    duck.alt='agMung'
+    mung.alt='agMung'
     mung.classList.add('agMung', 'agMung'+i);
 
     if (i == rotate_num) {
