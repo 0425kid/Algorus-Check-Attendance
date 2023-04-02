@@ -48,5 +48,6 @@ def do():
     chk.close()
 
 
+# 개별 실행용
 if __name__ == '__main__':
     do()
