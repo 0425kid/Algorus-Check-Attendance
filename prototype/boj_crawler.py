@@ -4,23 +4,38 @@ import make_users
 import json
 import re
 from datetime import datetime
+import threading
+from enum import Enum
+import time
 
-# 봇 탐지 방지 헤더 코드
-headers = {'User-Agent': 'Mozilla/5.0'}
 
-# 전체 주차 문제 리스트 불러 오기
-with open('problems.json', 'r', encoding='utf-8') as f:
-    problems = json.load(f)
-f.close()
-
-# 최신 날짜 불러 오기
-with open('date.json', 'r', encoding='utf-8') as f:
-    ls = json.load(f)
-f.close()
-dead_line = datetime(*ls[-1])
+def print_vane():
+    symbols = Enum('e', '| / - \\')
+    print(f'running  ', end='')
+    while True:
+        for elem in symbols:
+            print(f'\b{elem.name}', end='')
+            time.sleep(0.5)
 
 
 def do():
+    vane_thread = threading.Thread(target=print_vane)
+    vane_thread.daemon = True
+    vane_thread.start()
+
+    # 봇 탐지 방지 헤더 코드
+    headers = {'User-Agent': 'Mozilla/5.0'}
+
+    # 전체 주차 문제 리스트 불러 오기
+    with open('problems.json', 'r', encoding='utf-8') as f:
+        problems = json.load(f)
+    f.close()
+
+    # 최신 날짜 불러 오기
+    with open('date.json', 'r', encoding='utf-8') as f:
+        ls = json.load(f)
+    f.close()
+    dead_line = datetime(*ls[-1])
     # 해당 코드 참조
     users = make_users.do()
     for user in users:
