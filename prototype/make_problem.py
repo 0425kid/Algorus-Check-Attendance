@@ -1,3 +1,5 @@
+# json 직접 수정 시 오류 발생을 막고자 따로 분리
+
 import json
 
 with open('problems.json', 'r', encoding='utf-8') as f:

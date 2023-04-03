@@ -2,8 +2,8 @@
 	{
 		"name": "김용환",
 		"s_id": "12152161",
-		"b_id": "yh7946",
-		"atnd": false
+		"b_id": "yh79462",
+		"atnd": true
 	},
 	{
 		"name": "이정은",
@@ -27,31 +27,31 @@
 		"name": "박승태",
 		"s_id": "12201732",
 		"b_id": "sine0422",
-		"atnd": true
+		"atnd": false
 	},
 	{
 		"name": "박찬섭",
 		"s_id": "12201739",
 		"b_id": "pcs1728",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "서범창",
 		"s_id": "12201742",
 		"b_id": "window9400",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "김성민",
 		"s_id": "12202616",
 		"b_id": "ksm0305",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "이상현",
 		"s_id": "12202900",
 		"b_id": "sh000819",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "김가현",
@@ -81,7 +81,7 @@
 		"name": "권유진",
 		"s_id": "12214160",
 		"b_id": "0618yujin",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "김민지",
@@ -111,7 +111,7 @@
 		"name": "이원정",
 		"s_id": "12220637",
 		"b_id": "1jung1123",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "이종원",
@@ -129,7 +129,7 @@
 		"name": "오예진",
 		"s_id": "12222069",
 		"b_id": "wlsl0292",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "김연우",
@@ -147,43 +147,43 @@
 		"name": "이시아",
 		"s_id": "12222484",
 		"b_id": "1111sia",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "최정우",
 		"s_id": "12224033",
 		"b_id": "choijungwoo13",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "나승민",
 		"s_id": "12224131",
 		"b_id": "whds0524",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "기성근",
 		"s_id": "12224267",
 		"b_id": "rlrmsrl2720",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "송종헌",
 		"s_id": "12224419",
 		"b_id": "sam547582",
-		"atnd": true
+		"atnd": false
 	},
 	{
 		"name": "신현민",
 		"s_id": "12224420",
 		"b_id": "chrisshin1236",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "여상현",
 		"s_id": "12230456",
 		"b_id": "twinteddy001baek",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "이창우",
@@ -195,7 +195,7 @@
 		"name": "이다해",
 		"s_id": "12230661",
 		"b_id": "should0316",
-		"atnd": true
+		"atnd": false
 	},
 	{
 		"name": "김민준",
@@ -225,7 +225,7 @@
 		"name": "조강현",
 		"s_id": "12231581",
 		"b_id": "chogh102",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "김연우",
@@ -243,13 +243,13 @@
 		"name": "박동진",
 		"s_id": "12231628",
 		"b_id": "pdj614",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "이원영",
 		"s_id": "12231674",
 		"b_id": "lwylwy2345",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "정지윤",
@@ -261,37 +261,37 @@
 		"name": "방지윤",
 		"s_id": "12231733",
 		"b_id": "wannago_home",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "박서진",
 		"s_id": "12231813",
 		"b_id": "parkseoj1n120",
-		"atnd": true
+		"atnd": false
 	},
 	{
 		"name": "이지원",
 		"s_id": "12231826",
 		"b_id": "jiwon045",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "윤준서",
 		"s_id": "12231915",
 		"b_id": "junsyeo9998",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "손가영",
 		"s_id": "12231994",
 		"b_id": "sgy7315",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "김동민",
 		"s_id": "12232036",
 		"b_id": "jh040212",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "김유진",
@@ -309,37 +309,37 @@
 		"name": "송채윤",
 		"s_id": "12232112",
 		"b_id": "sochyo99",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "송해인",
 		"s_id": "12232113",
 		"b_id": "haein01",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "이다은",
 		"s_id": "12232138",
 		"b_id": "sallylee0609",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "최진선",
 		"s_id": "12232406",
 		"b_id": "jeycjh10",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "이현중",
 		"s_id": "12232840",
 		"b_id": "hyuning",
-		"atnd": true
+		"atnd": false
 	},
 	{
 		"name": "김지민",
 		"s_id": "12232870",
 		"b_id": "jiciskoi",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "김영채",
@@ -351,7 +351,7 @@
 		"name": "이준서",
 		"s_id": "12233207",
 		"b_id": "josh0519",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "송호근",
@@ -369,13 +369,13 @@
 		"name": "김예인",
 		"s_id": "12233880",
 		"b_id": "yeaah_in810",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "김지원",
 		"s_id": "12233884",
 		"b_id": "0928jiwon",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "양준석",
@@ -393,19 +393,19 @@
 		"name": "이유찬",
 		"s_id": "12233907",
 		"b_id": "leeyuch6",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "임근호",
 		"s_id": "12233912",
 		"b_id": "imgh0204",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "장주연",
 		"s_id": "12233913",
 		"b_id": "jjo1601",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "조성열",
@@ -417,7 +417,7 @@
 		"name": "홍장원",
 		"s_id": "12233919",
 		"b_id": "carrott",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "전찬영",
@@ -435,7 +435,7 @@
 		"name": "장지원",
 		"s_id": "12234045",
 		"b_id": "aspyn_04",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "황현",
@@ -447,31 +447,31 @@
 		"name": "곽민혁",
 		"s_id": "12234056",
 		"b_id": "min1028004",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "곽신제",
 		"s_id": "12234057",
 		"b_id": "cjma",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "구본상",
 		"s_id": "12234059",
 		"b_id": "cock0429",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "구정우",
 		"s_id": "12234060",
 		"b_id": "rnwjddn",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "김기현",
 		"s_id": "12234066",
 		"b_id": "gwsj7036",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "김도담",
@@ -483,55 +483,55 @@
 		"name": "김민섭",
 		"s_id": "12234073",
 		"b_id": "tommy1005a",
-		"atnd": true
+		"atnd": false
 	},
 	{
 		"name": "김민재",
 		"s_id": "12234074",
 		"b_id": "manjae04",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "김서연",
 		"s_id": "12234081",
 		"b_id": "sy041002",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "김원호",
 		"s_id": "12234087",
 		"b_id": "tlrpqksmf",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "김재한",
 		"s_id": "12234090",
 		"b_id": "jesusjaehan",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "김정훈",
 		"s_id": "12234091",
 		"b_id": "kjh4567",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "김준혁",
 		"s_id": "12234092",
 		"b_id": "smldug135",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "김태현",
 		"s_id": "12234098",
 		"b_id": "ackgi1117",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "김형민",
 		"s_id": "12234100",
 		"b_id": "dudals2157",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "노유신",
@@ -543,37 +543,37 @@
 		"name": "마승우",
 		"s_id": "12234107",
 		"b_id": "nick1411",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "모가람",
 		"s_id": "12234108",
 		"b_id": "mm33",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "박건",
 		"s_id": "12234110",
 		"b_id": "pg020205 ",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "박경찬",
 		"s_id": "12234111",
 		"b_id": "chan0218",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "박성윤",
 		"s_id": "12234115",
 		"b_id": "qkrtjddbs0103",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "박성찬",
 		"s_id": "12234116",
 		"b_id": "tjdcks8840",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "박현민",
@@ -585,7 +585,7 @@
 		"name": "손동현",
 		"s_id": "12234134",
 		"b_id": "nitepp04",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "안유민",
@@ -597,7 +597,7 @@
 		"name": "오현승",
 		"s_id": "12234143",
 		"b_id": "raymond1203",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "옥지민",
@@ -621,7 +621,7 @@
 		"name": "이재우",
 		"s_id": "12234162",
 		"b_id": "jaeu1341",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "이준성",
@@ -633,31 +633,31 @@
 		"name": "이현민",
 		"s_id": "12234173",
 		"b_id": "dlgusals31",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "임재욱",
 		"s_id": "12234176",
 		"b_id": "dlawodnr0000",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "장재형",
 		"s_id": "12234178",
 		"b_id": "adafg1204",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "전지호",
 		"s_id": "12234182",
 		"b_id": "jiho3394",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "정성빈",
 		"s_id": "12234185",
 		"b_id": "jsb0488",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "정우진",
@@ -675,19 +675,19 @@
 		"name": "조진우",
 		"s_id": "12234195",
 		"b_id": "jimy1218",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "최지우",
 		"s_id": "12234207",
 		"b_id": "chlwldn4319",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "오제훈",
 		"s_id": "12234254",
 		"b_id": "ojh0802",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "장은수",
@@ -741,24 +741,24 @@
 		"name": "노도형",
 		"s_id": "12234605",
 		"b_id": "hg0309",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "염정인",
 		"s_id": "12234612",
 		"b_id": "kihano",
-		"atnd": true
+		"atnd": false
 	},
 	{
 		"name": "서동윤",
 		"s_id": "12234628",
 		"b_id": "sdy6785",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "정헌석",
 		"s_id": "12234717",
 		"b_id": "ltwosonl",
-		"atnd": false
+		"atnd": true
 	}
 ]
