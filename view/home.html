@@ -20,17 +20,18 @@
         아이디 체크
     </h3>
     <form method="post" action="/user/check_boj_id">
-        <input name="name" placeholder="이름" class="input"/>
-        <input name="student_id" placeholder="학번" class="input"/>
+        <input name="name" required placeholder="이름" class="input"/>
+        <input name="student_id" required pattern=".{8}" title="학번을 8자리로 입력해주세요." placeholder="학번" class="input"/>
         <input type="submit" class="submitBtn"/>
     </form>
     <h3>출석 현황 체크</h3>
     <form method="post" action="/user/chek_attendance" id="attendance_form">
-        <input name="name" placeholder="이름">
-        <input name="student_id" placeholder="학번">    
+        <input name="name" required placeholder="이름">
+        <input name="student_id" required pattern=".{8}" title="학번을 8자리로 입력해주세요." placeholder="학번">
         <select name="week_num" id="week_num">
             <option value="">주차 선택</option>
             <option value="1">1주차</option>
+            <option value="2">2주차</option>
         </select>
         <input type="submit" class="submitBtn"/>
     </form>
