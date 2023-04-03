@@ -97,7 +97,7 @@ router.post('/chek_attendance/:week', async (req,res)=>{
         if(result.rowCount == 0){
             return res.send("일치하는 회원 정보가 없습니다. 학번과 이름을 확인해주세요!")
         }
-        res.send(result.rows[0]);
+        res.send(result.rows[0]['attendance_status']);
         
     }
     catch(error){
