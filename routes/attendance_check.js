@@ -13,6 +13,12 @@ router.get('/:week', async (req,res)=>{
     const pg = new postgresql()
     await pg.connect()
 
+    pg.client.query(
+        `
+        DELETE FROM attendance WHERE week_number = ${week_num};
+        `
+    );
+
     //json에 있는 데이터대로 새로 출석체크
     try {
         await Promise.all(json.map((element) =>
