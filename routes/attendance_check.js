@@ -53,6 +53,23 @@ router.get('/getStatus/:week', async (req,res)=>{
 
     pg.client.query(
         `
+        DELETE FROM attendance WHERE week_number = ${week_num};
+        `
+    );
+
+    //json에 있는 데이터대로 새로 출석체크
+    await Promise.all(json.map((element) =>
+        pg.client.query(
+            `
+            INSERT INTO attendance(week_number, student_id, student_name, attendance_status)
+            VALUES($1, $2, $3, $4)
+            `,
+            [week_num, element.s_id, element.name, element.atnd]
+        )
+    ));
+
+    pg.client.query(
+        `
         SELECT student_id, student_name, attendance_status FROM attendance
         WHERE week_number = $1;
         `
