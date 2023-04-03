@@ -27,7 +27,7 @@ router.get('/:week', async (req,res)=>{
                 INSERT INTO attendance(week_number, student_id, student_name, attendance_status)
                 VALUES($1, $2, $3, $4)
                 `,
-                [week_num, element['s_id'], element['name'], element['atnd']]
+                [week_num, element.s_id, element.name, element.atnd]
             )
         ));
         res.send(
