@@ -28,7 +28,7 @@
     <form method="post" action="/user/chek_attendance" id="attendance_form">
         <input name="name" required placeholder="이름">
         <input name="student_id" required pattern=".{8}" title="학번을 8자리로 입력해주세요." placeholder="학번">
-        <select name="week_num" id="week_num">
+        <select name="week_num" required id="week_num">
             <option value="">주차 선택</option>
             <option value="1">1주차</option>
             <option value="2">2주차</option>
