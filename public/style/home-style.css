@@ -131,8 +131,9 @@ body {
     }
 }
 
-p .accent-color {
+p {
     display: inline-block;
+    margin: 0;
 }
 
 .rotate {
