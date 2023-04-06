@@ -3,7 +3,7 @@
 }
 
 body {
-  margin: 0px;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,12 +12,11 @@ body {
 
 .home-container {
   border: 1px solid black;
-  padding: 30px;
-  padding-bottom: 60px;
+  padding: 30px 30px 60px 30px;
   border-radius: 15px;
-  box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 13px 0 rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 10px 10px 13px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 10px 10px 13px 0 rgba(0, 0, 0, 0.5);
 }
 
 .agDuck {
@@ -32,11 +31,11 @@ body {
 
 .agDuck1 {
   left: 100px;
-  top: 0px;
+  top: 0;
 }
 
 .agDuck2 {
-  left: 0px;
+  left: 0;
   bottom: 100px;
 }
 
@@ -68,15 +67,15 @@ body {
   top: 120px;
 }
 .agMung2 {
-  bottom: 0px;
+  bottom: 0;
   left: 250px;
 }
 .agMung3 {
-  top: 0px;
+  top: 0;
 }
 
 .agMung4 {
-  bottom: 0px;
+  bottom: 0;
   left: 800px;
 }
 
@@ -114,10 +113,6 @@ body {
 .submitBtn:hover {
   transform: scale(1.1);
   filter: brightness(1.1);
-}
-
-h1 span {
-  margin-right: -7px;
 }
 
 @keyframes spin {

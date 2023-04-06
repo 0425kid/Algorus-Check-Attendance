@@ -9,24 +9,20 @@
 <div id='img_container'></div>
 <div class="home-container">
     <h1 class="home">
-        <span class="accent-color">&lt;P</span>
-        re -
-        <span class="accent-color">A</span>
-        lgorus
-        <span class="accent-color"> /&gt; </span>
+        <p class="accent-color" style="display: inline-block">&lt;P</p>re-<p class="accent-color" style="display: inline-block">A</p>lgorus<p class="accent-color" style="display: inline-block">/&gt;</p>
     </h1>
     <h3>
         <span class="accent-color"> 백준 </span>
         아이디 체크
     </h3>
     <form method="post" action="/user/check_boj_id">
-        <input name="name" required placeholder="이름" class="input"/>
+        <input name="name" required pattern="[^a-zA-Z0-9]+" title="이름을 입력해주세요." placeholder="이름" class="input"/>
         <input name="student_id" required pattern=".{8}" title="학번을 8자리로 입력해주세요." placeholder="학번" class="input"/>
         <input type="submit" class="submitBtn"/>
     </form>
     <h3>출석 현황 체크</h3>
     <form method="post" action="/user/chek_attendance" id="attendance_form">
-        <input name="name" required placeholder="이름">
+        <input name="name" required pattern="[^a-zA-Z0-9]+" title="이름을 입력해주세요." placeholder="이름">
         <input name="student_id" required pattern=".{8}" title="학번을 8자리로 입력해주세요." placeholder="학번">
         <select name="week_num" required id="week_num">
             <option value="">주차 선택</option>
