@@ -9,7 +9,7 @@ def add_days(source, cnt):
 
 
 def do():
-    with open('home/ubuntu/Algours-Check-Attendance/prototype/date.json', 'r', encoding='utf-8') as f:
+    with open('home/ubuntu/Algorus-Check-Attendance/prototype/date.json', 'r', encoding='utf-8') as f:
         # json 파일이 비어 있으면 error
         try:
             jf = json.load(f)
@@ -17,7 +17,7 @@ def do():
             jf = []
     f.close()
 
-    with open('home/ubuntu/Algours-Check-Attendance/prototype/date.json', 'w', encoding='utf-8') as f:
+    with open('home/ubuntu/Algorus-Check-Attendance/prototype/date.json', 'w', encoding='utf-8') as f:
         temp = []
         for elem in jf:
             temp.append(tuple(elem))
