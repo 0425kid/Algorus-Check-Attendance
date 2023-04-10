@@ -61,6 +61,7 @@ def do():
     with open(f'/home/ubuntu/Algorus-Check-Attendance/prototype/check{len(ls)}.json', 'w', encoding='utf-8') as chk:
         json.dump(users, chk, ensure_ascii=False, indent='\t')
     chk.close()
+    print()
 
 
 # 개별 실행용
