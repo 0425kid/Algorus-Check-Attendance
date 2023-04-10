@@ -10,7 +10,7 @@ def add_days(source, cnt):
 
 
 def do():
-    with open(os.path.join(os.getcwd(), 'date.json'), 'r', encoding='utf-8') as f:
+    with open(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'date.json'), 'r', encoding='utf-8') as f:
         # json 파일이 비어 있으면 error
         try:
             jf = json.load(f)
@@ -18,7 +18,7 @@ def do():
             jf = []
     f.close()
 
-    with open(os.path.join(os.getcwd(), 'date.json'), 'w', encoding='utf-8') as f:
+    with open(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'date.json'), 'w', encoding='utf-8') as f:
         temp = []
         for elem in jf:
             temp.append(tuple(elem))

@@ -28,12 +28,12 @@ def do():
     headers = {'User-Agent': 'Mozilla/5.0'}
 
     # 전체 주차 문제 리스트 불러 오기
-    with open(os.path.join(os.getcwd(), 'problems.json'), 'r', encoding='utf-8') as f:
+    with open(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'problems.json'), 'r', encoding='utf-8') as f:
         problems = json.load(f)
     f.close()
 
     # 최신 날짜 불러 오기
-    with open(os.path.join(os.getcwd(), 'date.json'), 'r', encoding='utf-8') as f:
+    with open(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'date.json'), 'r', encoding='utf-8') as f:
         ls = json.load(f)
     f.close()
     dead_line = datetime(*ls[-1])
@@ -59,7 +59,7 @@ def do():
         # 주차별 문제 개수와 푼 문제 수가 동일한 지 판단 후 출석 처리
         if cnt == len(problems[len(ls) - 1]):
             user['atnd'] = True
-    with open(os.path.join(os.getcwd(), f'check{len(ls)}.py'), 'w', encoding='utf-8') as chk:
+    with open(os.path.join(os.path.abspath(os.path.dirname(__file__)), f'check{len(ls)}.py'), 'w', encoding='utf-8') as chk:
         json.dump(users, chk, ensure_ascii=False, indent='\t')
     chk.close()
     print()
