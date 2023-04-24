@@ -579,7 +579,7 @@
 		"name": "박현민",
 		"s_id": 12234124,
 		"b_id": "hyunmin365",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "손동현",
@@ -639,7 +639,7 @@
 		"name": "임재욱",
 		"s_id": 12234176,
 		"b_id": "dlawodnr0000",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "장재형",
@@ -669,7 +669,7 @@
 		"name": "조성철",
 		"s_id": 12234192,
 		"b_id": "seongchul33",
-		"atnd": false
+		"atnd": true
 	},
 	{
 		"name": "조진우",
